@@ -1,7 +1,7 @@
 /**
  * 测试定时任务
  */
-const Schedule = require("../index").Schedule;
+const Schedule = require("node-duck").Schedule;
 
 class testSchedule extends Schedule {
 

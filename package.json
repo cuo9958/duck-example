@@ -4,7 +4,7 @@
   "description": "duck框架的例子",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/cuo9958/duck-example#readme",
   "dependencies": {
-    "node-duck": "^1.0.1"
+    "node-duck": "^1.1.1"
   }
 }

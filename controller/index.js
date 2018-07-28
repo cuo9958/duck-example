@@ -1,10 +1,15 @@
 /**
- * 默认的路由
- * @param {*} router 
+ * 测试路由
  */
-module.exports = function (router) {
-    router.get("/", function (ctx) {
-        ctx.body = "hi,duck.";
-    });
-    return router;
-};
+const Duck = require("node-duck");
+
+const Controller = new Duck.Controller("/");
+
+Controller.get("", function (ctx) {
+    ctx.body = "hi,duck!";
+})
+Controller.get("test", function (ctx) {
+    ctx.body = "hi,duck!";
+})
+
+module.exports = Controller;

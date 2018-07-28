@@ -1,1 +1,2 @@
-const duck = require("node-duck");
+const Duck = require("node-duck");
+
